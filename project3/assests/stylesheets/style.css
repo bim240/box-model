@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* =================================
+        html common
+================================= */
+.margin-left {
+    padding: 20px 30px 20px 30px;
+    
+}
+.red-text {
+    color: red;
+}
+.white-text {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+.margin-bottom {
+    margin-bottom: 35px;
+}
+
+
+/* =================================
+        body
+================================= */
+.bg1 {
+    background-color:#323232;
+}
+li {
+    display: inline-block;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px;
+    /* text-align: right; */
+    
+}
+nav{
+    /* background-color: seagreen; */
+    display: inline-block;
+    box-sizing: border-box;
+    width:1100px;
+    text-align:right;
+
+}
+.block1 {
+    /* background-color: thistle; */
+    box-sizing: border-box;
+    line-height: 1.5;
+    width:450px;
+    height: 80px;
+    
+}
+.block2 {
+    box-sizing: border-box;
+    width:325px;
+    height: 135px;
+    
+}
+h1{
+    
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding: 10px 10px 10px 0;
+}
+h2 {
+    display: inline-block;
+    font-weight:bold;
+    padding:20px 20px 20px 0 ;
+}
+p {
+    padding:20px 20px 20px 0;
+}
+.bg2 {
+    background-color:#AFAFAF;
+}
+.circle {
+    box-sizing: border-box;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;;
+    background-color: red;
+
+}
+.bg3 {
+    background-color:red;
+}
+.btn1 {
+    padding: 8px 12px;
+    color:white;
+    background-color: transparent;
+    border:2px solid white;
+    
+}
+.btn2 {
+    padding: 8px 12px;
+    color:red;
+    background-color: transparent;
+    border:2px solid red;
+}
+#username {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 22px;
+    margin: 12px 0;
+}
+#message {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    height:130px;
+    margin:12px 0;
+}
